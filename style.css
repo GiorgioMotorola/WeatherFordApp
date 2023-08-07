@@ -1,3 +1,79 @@
 body {
-    background-color: wheat;
+    margin: 0;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Crushed', cursive;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-family: 'Staatliches', cursive;
+    font-family: 'Vollkorn', serif;
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
 }
+
+.container {
+        margin: 250px;
+        min-height: 300px;	
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background: #efefef;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 14px 26px;
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+    
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 18px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .button-container {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #d9d8d8;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .button {
+    color: #efefef;
+    border: 3px solid #147876;
+    background-image: -webkit-linear-gradient(30deg, #1478440d 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #147844 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    width: 130px;
+    padding: 15px;
+    height: auto;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  
+  .button:hover {
+    background-position: 100%;
+    color: #147876;
+    cursor: pointer;
+  }
